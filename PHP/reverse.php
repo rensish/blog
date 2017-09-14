@@ -19,3 +19,5 @@ function reverse($arr)
 
     return $arr;
 }
+
+$arr = reverse(array(1,2));
