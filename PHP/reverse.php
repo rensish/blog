@@ -1,6 +1,6 @@
 <?
 /**
- * 反转数组
+ * 缈昏浆鏁扮粍
  * @param  array $arr
  * @return array
  */
@@ -19,7 +19,3 @@ function reverse($arr)
 
     return $arr;
 }
-
-$arr = array(1,2,3,4,5);
-$res = reverse($arr);
-var_dump($res);exit;
