@@ -1,6 +1,6 @@
 <?
-/**µ¥ÀýÄ£Ê½
-* @param:config array Êý¾Ý¿âÅäÖÃ
+/**å•ä¾‹æ¨¡å¼
+* @param:config arrayæ•°æ®åº“é…ç½®
 * @return object
 **/
 class Mysql
