@@ -1,4 +1,8 @@
 <?
+/**单例模式
+* @param:config array 数据库配置
+* @return object
+**/
 class Mysql
 {
 
