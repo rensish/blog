@@ -1,6 +1,6 @@
 <?
-/**单例模式
-* @param:config array数据库配置
+/**单例模式-PDO方式连接Mysql
+* @param  Array config 数据库配置
 * @return object
 **/
 class Mysql
