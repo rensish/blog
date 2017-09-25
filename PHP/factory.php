@@ -1,10 +1,10 @@
 <?php
-/**¼òµ¥¹¤³§Ä£Ê½-¼òµ¥µÄ¼ÆËãÆ÷
-* @param  string operate ²Ù×÷·û
+/**ç®€å•å·¥åŽ‚æ¨¡å¼--åŸºæœ¬è®¡ç®—å™¨åŠŸèƒ½å®žçŽ°
+* @param  string operate æ“ä½œç¬¦
 * @return obj
 **/
 
-//¹¤³§Àà£¬ÓÃÀ´´´½¨¶ÔÏó
+//å·¥åŽ‚ç±»ï¼Œç”¨æ¥åˆ›å»ºå¯¹è±¡
 class Factory
 {
     private $operate;
@@ -31,7 +31,7 @@ class Factory
           }
     }
 }
-//¹¦ÄÜÀà£¬ÓÃÀ´×ö¾ßÌåÔËËã
+//åŠŸèƒ½ç±»ï¼Œç”¨äºŽåšå…·ä½“è¿ç®—
 class OperationAdd
 {
   public function getValue($num1=0,$num2=0){
