@@ -7,7 +7,6 @@
 function reverse($arr)
 {
     $n = count($arr);
-
     $left = 0;
     $right = $n - 1;
 
