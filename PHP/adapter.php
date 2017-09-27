@@ -29,4 +29,4 @@
 
  $array = array('time','money','family');
  $obj = new serializeData($array);
- $obj->display();
+ $obj->display(); 
