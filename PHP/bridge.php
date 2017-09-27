@@ -45,4 +45,4 @@ class QQ
 $info = new Info();
 $info->level = new Special();
 $info->way = new Weixin();
-$info->sending('十一去旅行','Renssh');
+$info->sending('十一去旅行','Renssh'); 
