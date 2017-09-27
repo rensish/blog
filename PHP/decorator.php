@@ -51,4 +51,4 @@ class onlineBase extends Base
 }
 
 $obj = new onlineBase(new checkBase(new editorBase(new Base('原始内容'))));
-echo $obj->decorate();
+echo $obj->decorate(); 
