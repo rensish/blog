@@ -41,11 +41,3 @@ class OperationAdd
 
 $operation = Factory::createObj('+');
 $result = $operation->getValue(1,2);
-
-
-
-
-
-
-
-?>
