@@ -1,22 +1,22 @@
 <?
 /**
- * @description è§‚å¯Ÿè€…æ¨¡å¼ï¼Œå³è®¢é˜…-å‘å¸ƒæ¨¡å¼ï¼Œå½“ä¸€ä¸ªå¯¹è±¡çš„çŠ¶æ€å‘ç”Ÿæ”¹å˜æ—¶ï¼Œæ‰€æœ‰ä¾èµ–å®ƒçš„å¯¹è±¡éƒ½èƒ½å¾—åˆ°é€šçŸ¥å¹¶æ›´æ–°
+ * @description ¹Û²ìÕßÄ£Ê½£¬¼´¶©ÔÄ-·¢²¼Ä£Ê½£¬µ±Ò»¸ö¶ÔÏóµÄ×´Ì¬·¢Éú¸Ä±äÊ±£¬ËùÓÐÒÀÀµËüµÄ¶ÔÏó¶¼ÄÜµÃµ½Í¨Öª²¢¸üÐÂ
  */
 
  interface Subject
  {
      /**
-      * å¢žåŠ ä¸€ä¸ªæ–°çš„è§‚å¯Ÿè€…å¯¹è±¡
+      * Ôö¼ÓÒ»¸öÐÂµÄ¹Û²ìÕß¶ÔÏó
       * @param Observer $observer
       */
      public function attach($observer);
      /**
-      * åˆ é™¤ä¸€ä¸ªè§‚å¯Ÿè€…
+      * É¾³ýÒ»¸ö¹Û²ìÕß
      * @param Observer $observer
      */
      public function detach($observer);
      /**
-      * é€šçŸ¥æ‰€æœ‰çš„è§‚å¯Ÿè€…
+      * Í¨ÖªËùÓÐµÄ¹Û²ìÕß
      * @param Observer $observer
      */
      public function notifyObservers();
@@ -57,7 +57,7 @@
 
 
  /**
-  * æŠ½è±¡è§‚å¯Ÿè€…è§’è‰²
+  * ³éÏó¹Û²ìÕß½ÇÉ«
   */
  interface Observer
  {
@@ -66,7 +66,7 @@
 
 
  /**
-  * å…·ä½“è§‚å¯Ÿè€…è§’è‰²
+  * ¾ßÌå¹Û²ìÕß½ÇÉ«
   */
  class ConcreteObserver implements Observer{
      private $name;
@@ -81,11 +81,12 @@
      }
  }
 
+
  $subject = new ConcreteSubject();
- $observer = new ConcreteObserver('renhaha');
+ $observer = new ConcreteObserver('Renhaha');
  $subject -> attach($observer);
 
- $observer1 = new ConcreteObserver('renheihei');
+ $observer1 = new ConcreteObserver('Renheihei');
  $subject -> attach($observer1);
 
  $subject -> detach($observer);
